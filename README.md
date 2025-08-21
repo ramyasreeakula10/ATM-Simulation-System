@@ -15,7 +15,8 @@ CREATE TABLE users (
     balance DOUBLE
 );
 
-Insert one user for testing
+#Insert one user for testing:
+
 INSERT INTO users (name, pin, balance) 
 VALUES ('john', '123123', 100000);
 
